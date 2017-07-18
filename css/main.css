@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'AtlasGrotesk';
+  font-weight: medium;
+  src: url('../fonts/AtlasGrotesk-Medium.otf') format('opentype');
+}
+
+body {
+  font-family: 'AtlasGrotesk', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#nav ul {
+  margin: 0px;
+  padding: 0px;
+
+  padding-top: 5vh;
+  font-size:50px;
+  list-style-type: none;
+}
+
+#nav li {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline;
+}
+
+.viscontainer {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 20vh;
+}
