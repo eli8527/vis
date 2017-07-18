@@ -13,3 +13,8 @@
   list-style: none;
 
 }
+
+.classes li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
