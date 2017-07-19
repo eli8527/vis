@@ -1,0 +1,23 @@
+.artist {
+  font-size: 50px;
+  text-align: left;
+}
+.artist-name {
+  text-transform: uppercase;
+}
+
+.work {
+  padding-bottom: 100px;
+
+}
+
+.work-caption {
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+body {
+  color: white;
+}
+a { color: white;}
+a:hover {color:black;}

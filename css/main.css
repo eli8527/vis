@@ -11,8 +11,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-position: center;
-  /*background-repeat: no-repeat;*/
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -42,6 +42,10 @@ a:hover {
   display: inline;
 }
 
+#nav {
+  padding-bottom: 10vh;
+}
+
 .viscontainer {
   min-height: 100vh;
   text-align: center;
@@ -49,4 +53,9 @@ a:hover {
 
 .footer {
   padding-top: 20vh;
+}
+
+.content {
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
